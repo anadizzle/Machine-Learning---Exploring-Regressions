@@ -13,8 +13,9 @@ This model wil observe a sample of N (X, Y) pairs and kearn a polynomial regress
 ### How do I get set up? ###
 
 * Install Anaconda: https://docs.conda.io/projects/conda/en/latest/index.html
-* Create new environment: `conda create --name py35 python=3.5`
-
+* Create new environment: ```
+conda create --name py35 python=3.5
+```
 * Activate the new environment to use it: Linux, MacOS: `conda activate py35`
 * Install a new package (Jupyter Notebook) in the active environment
 `conda install jupyter`
@@ -31,19 +32,5 @@ from __future__ import print_function
 	x = torch.rand(5, 3)
 	print(x)
 ```
-
-* Run Jupyter Notebook `jupyter notebook`
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
+* Clone repository
+* Run Jupyter Notebook `jupyter notebook` and open .ipynb file
